@@ -1,8 +1,14 @@
-#include<iostream>
+#include <iostream>
+#include <string>
+#include <vector>
+#include "concordance.h"
+#include "words.h"
 
 using namespace std;
 
 int main()
 {
-   return 0;
+    Concordance text("alice.txt");
+    text.parse();
+    return 0;
 }
