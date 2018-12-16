@@ -23,7 +23,7 @@ public:
 private:
    // vector<words> m_words_stats;
     string m_filename;
-
+    int line;
 };
 #endif
 
